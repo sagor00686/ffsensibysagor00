@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FF Sensi Shop</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#0f172a;
+color:white;
+}
+
+header{
+background:#020617;
+padding:20px;
+text-align:center;
+font-size:26px;
+color:#22c55e;
+}
+
+.sold{
+background:#16a34a;
+padding:10px;
+text-align:center;
+font-weight:bold;
+}
+
+.container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:20px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+text-align:center;
+}
+
+.price{
+color:gold;
+font-size:22px;
+margin:10px;
+}
+
+button{
+background:#22c55e;
+border:none;
+padding:12px 20px;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:#15803d;
+}
+
+.payment{
+text-align:center;
+padding:20px;
+background:#111827;
+}
+
+.review{
+background:#1f2937;
+margin:10px;
+padding:10px;
+border-radius:8px;
+}
+
+footer{
+text-align:center;
+padding:15px;
+background:#020617;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+🔥 PRO FREE FIRE SENSITIVITY SHOP 🔥
+</header>
+
+<div class="sold">
+⚡ 742+ Players Already Bought Our Sensitivity
+</div>
+
+<div class="container">
+
+<div class="card">
+<h2>Drag Headshot Sensi</h2>
+<p>General: 100</p>
+<p>Red Dot: 95</p>
+<p>2x Scope: 90</p>
+<p>4x Scope: 85</p>
+<div class="price">৳49</div>
+<button onclick="buy()">Buy Now</button>
+</div>
+
+<div class="card">
+<h2>Pro Headshot Sensi</h2>
+<p>General: 95</p>
+<p>Red Dot: 90</p>
+<p>2x Scope: 85</p>
+<p>4x Scope: 80</p>
+<div class="price">৳59</div>
+<button onclick="buy()">Buy Now</button>
+</div>
+
+<div class="card">
+<h2>One Tap Sensi</h2>
+<p>General: 97</p>
+<p>Red Dot: 92</p>
+<p>2x Scope: 88</p>
+<p>4x Scope: 82</p>
+<div class="price">৳39</div>
+<button onclick="buy()">Buy Now</button>
+</div>
+
+</div>
+
+<div class="payment">
+
+<h2>💰 Payment Method</h2>
+
+<p>bKash: 01XXXXXXXXX</p>
+<p>Nagad: 01XXXXXXXXX</p>
+
+<p>Payment করার পরে Facebook বা WhatsApp এ Screenshot পাঠাও</p>
+
+</div>
+
+<div style="padding:20px">
+
+<h2 style="text-align:center">⭐ Player Reviews</h2>
+
+<div class="review">
+Rafi: "Headshot অনেক easy হচ্ছে!"
+</div>
+
+<div class="review">
+Siam: "Best drag sensi ever!"
+</div>
+
+<div class="review">
+Nahid: "One tap perfect!"
+</div>
+
+</div>
+
+<footer>
+© 2026 FF Sensitivity Store
+</footer>
+
+<script>
+
+function buy(){
+alert("Payment করতে bKash / Nagad নাম্বারে টাকা পাঠান। তারপর Screenshot পাঠান।");
+}
+
+</script>
+
+</body>
+</html>
